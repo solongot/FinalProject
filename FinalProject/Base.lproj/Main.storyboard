@@ -136,23 +136,192 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1z5-fL-VO5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="833.33333333333337" y="111.83035714285714"/>
+            <point key="canvasLocation" x="784" y="113"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="eKw-Ub-PYT">
+        <scene sceneID="6Gz-4l-xeg">
             <objects>
-                <viewController id="KfU-p2-L4n" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="a9Q-a5-ZPV">
+                <viewController id="3AG-0X-rac" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="l31-Zj-yru">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="Ym3-q9-tUn"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LYL-ji-CzF">
+                                <rect key="frame" x="253" y="565" width="106" height="127"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="98"/>
+                                <state key="normal" title="🤩"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="byK-1J-cuY">
+                                <rect key="frame" x="40" y="577" width="106" height="103"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="98"/>
+                                <state key="normal" title="🤢"/>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LDY-9D-LiC">
+                                <rect key="frame" x="54" y="152" width="307" height="188"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1176470588" green="0.4823529412" blue="0.91764705879999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="byK-1J-cuY" firstAttribute="leading" secondItem="TI7-fb-2ON" secondAttribute="leading" constant="40" id="F7H-5q-fOy"/>
+                            <constraint firstItem="LYL-ji-CzF" firstAttribute="leading" secondItem="byK-1J-cuY" secondAttribute="trailing" constant="107" id="RZz-t2-9HB"/>
+                            <constraint firstItem="TI7-fb-2ON" firstAttribute="trailing" secondItem="LYL-ji-CzF" secondAttribute="trailing" constant="55" id="eFQ-K9-dJ8"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="TI7-fb-2ON"/>
                     </view>
-                    <navigationItem key="navigationItem" id="0JI-0p-KPb"/>
+                    <navigationItem key="navigationItem" id="z3k-Qk-nh2"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="amu-ls-RCl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MpH-gk-Ov0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="138" y="761"/>
+            <point key="canvasLocation" x="1486" y="113"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="jTO-hp-x8N">
+            <objects>
+                <viewController id="sgj-KQ-OKk" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Prq-EA-mCi">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="duv-72-GUD">
+                                <rect key="frame" x="253" y="565" width="106" height="127"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="98"/>
+                                <state key="normal" title="🤩"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lWj-0J-cuD">
+                                <rect key="frame" x="40" y="577" width="106" height="103"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="98"/>
+                                <state key="normal" title="🤢"/>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XQ2-TA-HyH">
+                                <rect key="frame" x="54" y="152" width="307" height="188"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1176470588" green="0.4823529412" blue="0.91764705879999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="duv-72-GUD" firstAttribute="leading" secondItem="lWj-0J-cuD" secondAttribute="trailing" constant="107" id="Tbc-IF-Qkl"/>
+                            <constraint firstItem="lWj-0J-cuD" firstAttribute="leading" secondItem="7ue-FZ-kTs" secondAttribute="leading" constant="40" id="bNa-NU-7Z4"/>
+                            <constraint firstItem="7ue-FZ-kTs" firstAttribute="trailing" secondItem="duv-72-GUD" secondAttribute="trailing" constant="55" id="eEo-pt-ya7"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="7ue-FZ-kTs"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="JFQ-sE-Pt5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="77F-Ia-HP8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2216" y="113"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="IJR-aJ-rdK">
+            <objects>
+                <viewController id="xaf-Xb-dts" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zT9-cO-WVq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BHx-yp-Ohy">
+                                <rect key="frame" x="253" y="565" width="106" height="127"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="98"/>
+                                <state key="normal" title="🤩"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fbG-HO-k7v">
+                                <rect key="frame" x="40" y="577" width="106" height="103"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="98"/>
+                                <state key="normal" title="🤢"/>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JO4-XA-gEU">
+                                <rect key="frame" x="54" y="152" width="307" height="188"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1176470588" green="0.4823529412" blue="0.91764705879999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="fbG-HO-k7v" firstAttribute="leading" secondItem="Gvk-tR-epU" secondAttribute="leading" constant="40" id="4hY-W5-3aQ"/>
+                            <constraint firstItem="BHx-yp-Ohy" firstAttribute="leading" secondItem="fbG-HO-k7v" secondAttribute="trailing" constant="107" id="KeT-a5-DFN"/>
+                            <constraint firstItem="Gvk-tR-epU" firstAttribute="trailing" secondItem="BHx-yp-Ohy" secondAttribute="trailing" constant="55" id="gsf-Cf-LQ5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Gvk-tR-epU"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ES9-d9-GBm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CO3-wE-3fN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2909" y="113"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Uw0-k9-OTx">
+            <objects>
+                <viewController id="xKA-lK-L8u" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="i86-Ey-Cd2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Vp-si-NdI">
+                                <rect key="frame" x="253" y="565" width="106" height="127"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="98"/>
+                                <state key="normal" title="🤩"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QZh-ra-IQS">
+                                <rect key="frame" x="40" y="577" width="106" height="103"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="98"/>
+                                <state key="normal" title="🤢"/>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sEV-hc-fea">
+                                <rect key="frame" x="54" y="152" width="307" height="188"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1176470588" green="0.4823529412" blue="0.91764705879999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="QZh-ra-IQS" firstAttribute="leading" secondItem="H4i-ho-qAJ" secondAttribute="leading" constant="40" id="Ex0-6Q-E0j"/>
+                            <constraint firstItem="9Vp-si-NdI" firstAttribute="leading" secondItem="QZh-ra-IQS" secondAttribute="trailing" constant="107" id="IoR-P1-G6m"/>
+                            <constraint firstItem="H4i-ho-qAJ" firstAttribute="trailing" secondItem="9Vp-si-NdI" secondAttribute="trailing" constant="55" id="jjo-9o-cgd"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="H4i-ho-qAJ"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="9vB-hR-Puv"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PHf-oZ-nbt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3626" y="113"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Eda-Ig-3dG">
+            <objects>
+                <viewController id="NJc-ky-7kI" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3NM-yW-h1h">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V40-f3-rzN">
+                                <rect key="frame" x="253" y="565" width="106" height="127"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="98"/>
+                                <state key="normal" title="🤩"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EvI-14-Yof">
+                                <rect key="frame" x="40" y="577" width="106" height="103"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="98"/>
+                                <state key="normal" title="🤢"/>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8c2-jb-NAG">
+                                <rect key="frame" x="54" y="152" width="307" height="188"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1176470588" green="0.4823529412" blue="0.91764705879999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="V40-f3-rzN" firstAttribute="leading" secondItem="EvI-14-Yof" secondAttribute="trailing" constant="107" id="AuB-S8-6JA"/>
+                            <constraint firstItem="H9J-VG-dcs" firstAttribute="trailing" secondItem="V40-f3-rzN" secondAttribute="trailing" constant="55" id="NOK-Il-Z5D"/>
+                            <constraint firstItem="EvI-14-Yof" firstAttribute="leading" secondItem="H9J-VG-dcs" secondAttribute="leading" constant="40" id="jve-p2-jZ4"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="H9J-VG-dcs"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Un6-Yf-kan"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Kr-U2-8pL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4362" y="113"/>
         </scene>
     </scenes>
     <resources>
